@@ -1,6 +1,6 @@
 streamlit==1.36.0
 pandas==1.5.3
-numpy>=1.24.0  # numpy のバージョンを更新
+numpy>=1.26.0  # numpy のバージョンをアップデート
 pip>=25.0.1  # pip の最新バージョン
 setuptools>=65.5.0  # setuptools も最新にする
 matplotlib==3.8.4
