@@ -4,13 +4,10 @@ import streamlit as st
 icon ='https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg'
 mimikousi_icon = r'pages/business_kousi.jpg'
 
-layout = 'wide'
-#layout = 'centered'
-
 st.set_page_config(
     page_title='Markdown Cheatsheet',
     page_icon=icon,
-    layout=layout
+    layout='wide'#'centered'
 )
 
 st.logo(mimikousi_icon, link='https://github.com/mimikousi')
