@@ -1,13 +1,13 @@
 #!/usr/bin/env python
 
 from pathlib import PurePath
-from Eliza import eliza
+from eliza import Eliza
 
-FILE = PurePath(__file__).parent / './Eliza/doctor.txt'
+FILE = PurePath(__file__).parent / 'doctor.txt'
 
 class Doctor:
     def __init__(self, file=FILE):
-        self.doctor = eliza.Eliza()
+        self.doctor = Eliza()
         self.doctor.load(file)
 
 
