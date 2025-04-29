@@ -7,3 +7,4 @@ transformers
 pykakasi
 sacremoses
 watchdog
+opencv-python
