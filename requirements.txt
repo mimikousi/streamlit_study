@@ -1,4 +1,4 @@
-streamlit==1.36.0
+streamlit==1.44.0
 janome
 wordcloud
 requests
@@ -7,4 +7,4 @@ transformers
 pykakasi
 sacremoses
 watchdog
-opencv-python
+opencv-python-headless==4.10.0.82
